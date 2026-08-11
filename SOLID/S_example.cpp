@@ -31,6 +31,8 @@ public:
 // GradeCalculator is responsible for calculating grades.
 // This follows Single Responsibility Principle (SRP).
 
+
+//this GradeCalculator class is in HAS-A relationship with Student class. It uses the Student class to calculate the grade based on the marks of the student. This is an example of composition, where GradeCalculator has a Student object to perform its functionality.
 class GradeCalculator {
 public:
     void calculateGrade(Student& s) {
